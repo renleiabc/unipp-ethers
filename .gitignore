@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+
+.hbuilderx
+# unpackage
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+uni_modules
+src/uni_modules
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+dist
